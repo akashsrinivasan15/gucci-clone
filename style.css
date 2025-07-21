@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"poppins";
+    text-decoration: none;
+}
+
+.top-section {
+    height: 900px;
+    background-image: url("guccilogo.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0;
+    z-index:0;
+
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    padding: 10px 50px;
+    background-color: white;
+    display: none;
+    z-index: 1;
+
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 0 5px;
+
+}
+
+.navbar a {
+    color: black;
+}
+
+.show {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.com-name {
+    color: white;
+    position: fixed;
+    top: 15%;
+    left: 16%;
+    font-size: 250px;
+    transition: all 0.5s ease;
+    z-index: 2;
+}
+
+.shrink {
+    top: 10px;
+    left: 45%;
+    font-size: 30px;
+    color: black;
+}
+
+.shop {
+    position: absolute;
+    margin: 36% 42%;
+    text-align: center;
+
+}
+
+.shop h2 a {
+    color: white;
+    font-size: 50px;
+}
+
+.shop button {
+    margin-top: 10px;
+    padding: 15px;
+    border: 1px solid rgb(61, 60, 60,0,5);
+    border-radius: 2px;
+
+}
+.shop button a {
+    color: black;
+}
+
+.option-box {
+    margin: 10px 30px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.option-1 {
+    background: url(model-image.webp) no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-radius: 5px;
+    height:750px;
+    width: 100%;
+    margin: 20px 10px;
+}
+
+.first,
+.second {
+    text-align: center;
+    margin-top: 70%;
+}
+
+.first a,
+.second a {
+    display: block;
+    color: white;
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.first button,
+.second button {
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 2px;
+    background-color: rgba(232, 228, 228, 0.5)
+}
+
+.option-2 {
+    background: url(hand-bag.webp) no-repeat;
+    background-position: top;
+    background-size: cover;
+    border-radius: 5px;
+    height: 750px;
+    width: 100%;
+    margin: 20px 10px;
+}
+
+.service {
+    font-size: 60px;
+    text-align: center;
+    padding: 80px 4rem 32px;
+}
+
+.services-box {
+    height: 800px;
+    margin: 30px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr 1fr 1fr;
+}
+
+.services {
+    text-align: center;
+
+}
+
+video {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.services {
+
+    text-align: center;
+    padding: 10px 50px 0px 50px;
+}
+
+.services h1 {
+    text-decoration: underline;
+}
+
+.services a {
+    text-decoration: underline;
+    color: black;
+    display: block;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.signup {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.signup p {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.row {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.col {
+    color: gray;
+    flex-basis: 30%;
+    padding: 10px;
+}
+
+.form {
+
+    padding: 10px;
+}
+
+.col h3 {
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.col a {
+    list-style: none;
+    color: white;
+
+}
+
+.col li {
+    display: inline;
+    list-style-type: none;
+    margin-bottom: 30px;
+    border-bottom: 1px solid white;
+
+}
+
+.col li::after {
+    content: "";
+    display: block;
+    height: 30px;
+}
+
+.col input {
+    color: gray;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.gucci-services {
+    display: block;
+    margin-left: 8%;
+}
+
+.gucci-services p {
+    color: gray;
+    padding: 20px 0;
+}
+
+.gucci-services li {
+    list-style: none;
+    padding-top: 10px;
+}
+
+.gucci-services a {
+    color: white;
+    text-decoration: underline;
+}
+
+.other-container {
+    display: block;
+    margin-left: 5%;
+}
+
+.other-container {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.subam {
+    color: white;
+    font-size: 300px;
+    text-align: center;
+}
