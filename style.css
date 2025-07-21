@@ -8,7 +8,7 @@
 
 .top-section {
     height: 900px;
-    background-image: url("guccilogo.webp");
+    background-image: url("gucci-media/guccilogo.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
 }
 
 .option-1 {
-    background: url(model-image.webp) no-repeat;
+    background: url("gucci-media/model-image.webp") no-repeat;
     background-position: top;
     background-size: cover;
     border-radius: 5px;
@@ -126,7 +126,7 @@
 }
 
 .option-2 {
-    background: url(hand-bag.webp) no-repeat;
+    background: url("gucci-media/hand-bag.webp") no-repeat;
     background-position: top;
     background-size: cover;
     border-radius: 5px;
